@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+li.list-group-item {
+  background-color: rgb(4, 4, 4);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+ul > li:nth-child(even) {
+  background-color: #fff;
+  color: black;
+}
